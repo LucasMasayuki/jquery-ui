@@ -20,7 +20,7 @@ var
 
 	uiFiles = coreFiles.map( function( file ) {
 		return "ui/" + file;
-	} ).concat( expandFiles( "ui/**/*.js" ).filter( function( file ) {
+	} ).concat( expandFiles( "ui/*.js" ).filter( function( file ) {
 		return coreFiles.indexOf( file.substring( 3 ) ) === -1;
 	} ) ),
 
