@@ -9,12 +9,12 @@ var
 	coreFiles = [
 		"core.js",
 		"widget.js",
-		"widgets/mouse.js",
-		"widgets/draggable.js",
-		"widgets/droppable.js",
-		"widgets/resizable.js",
-		"widgets/selectable.js",
-		"widgets/sortable.js",
+		"mouse.js",
+		"draggable.js",
+		"droppable.js",
+		"resizable.js",
+		"selectable.js",
+		"sortable.js",
 		"effect.js"
 	],
 
